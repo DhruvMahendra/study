@@ -1,0 +1,32 @@
+My name is Mahendra Reddy, I have around 7 years of work experience in IT Industry, in that I have 4 years experience as a devops engineer.
+past 2 years im working in HCL as a devops engineer.
+and coming to my skill set, hands on experience in Linux, brown experience on git, build tool maven, and im good at jenkins, jenkins is automation tool for continuous integration and delivery
+and hands on experience on shell script. I hv good knowledge on monitoring tools like nagios and grafana.
+and hands on experience on creating ec2 instance in aws cloud environment. im good at docker. it is virtualization and conterization tool.
+
+and comming to my roles and responsibilities:
+==> i involved and resolving git related issues when developer had an issues designing creating maintaining git repostories as per client specifications.
+==> and im creating Jenkins jobs and setup global permissions and scheduling jobs.
+building continuous integration environment in Jenkins.
+==> launching and configuration of Amazon EC2 instance cloud services using AMI's and configuring the servers for specified applications.
+==> and creating elastic IP's attaching and detaching to instances as per client request.
+==> and i'm experienced in wring docker files to build customized image for creating containers.
+==> and work with maven build tool for continuous building deployeble auto packs.
+==> and I perform tasks such as check-in checkout and matching code from development branch to main branch and main branch to development branches.
+==> enabling sonar quality gates for the modules of the project to maintain code quality. 
+and simple this is about my profile
+
+Due to my father's health condition, I had to support him in the hospital around 3 to 3.5 months so I taken bit
+==================================================================
+Branching Strategy: 
+
+we are using feature branching strategy and in this master branch and integration branches are long lived branches. and master always points to the production commits, the total code is available in integration. and if I want to change features I can create a branch from integration and while developing for every commit we are developing ci cd and tracking whether cicd is successul in development or not. where it is succesful in development, then the developer raising a PR request. when rising PR also we are putting some conditions to check whether the code is successful in development or not. and if it is success then only I can raise PR. and after rasing PR everyone checking changes and approving to merge it. so then the commits which are moved to integration or checked and tested in all environment like the QA, pre-prod, perfomance. so if all these are successful then moving to the production deployment and also in production we are checking whether the code is success in development or not. and also checking QA pre-prod and performance. if it is success then only cacd moving formward otherwise it will stops there only. 
+and once it is success in prod, master tip points to that commit. so we point the tip and tag it as v1. I mean version 1.0 or something and in future if we created version like 2.0 I mean V2.0 so we can check whether V1.1 version 1.2, 1.3 or developed under which stage we can easily refer. so and by doing this if we face any conflicts and what are the conflicts i'll get i'll clear all those conflicts then I can push back into integration branch and then I can release a login or sign up module whatever for the client requirement. that's it 
+==================================================================
+what kinds of conflicts you are getting how to resolve them?
+
+in git, we know that a conflicts occurs when two or more users make changes to the same file or lines of code, And then try to match those changes together. So, is in which case it is unable to automatically match the changes, and requires the user to manually resolve the conflicts. so resolve these conflicts, we first what should we do means we check git status. I mean in which files we have the conflicts, so after opening the files the complex located with a. So we have to complex markers them so, we can edit the file and remove the conflicts marker and manually merge the changes as needed. And I can save the file by using git add file name to mark the file as resolved so then once all these conflicts has been resolved I can use git commit to commit the changes. And one more important here is the conflicts can be complex right. It may require communication and collaboration with our team to resolve, so, therefore, it should be important to have a good communication and collaboration practice when we are working with git. so that is important, it is really needed in this I mean, in this concern to resolve the conflicts.
+==================================================================
+can you explain the cicd?
+cicd stands for continuous integration and continuous delivery or deployment. it is a software development methodology that aims to automate the process of building testing and deploying software changes. and continuous integration is the practice of frequently and automatically merging code changes from multiple developers into a single shared level whether it is a git or whatever the repository they are used. and this allows the developers to catch and fix errors early in the development life cycle and reducing the likelihood of conflicts and integration issues later on. and continuous delivery or deployment is the practice of automating the deployment process to make faster and more reliable. and here this includes the tasks such as building testing and packaging the software. as well as deploying into production environment. and with cd developers can rapidly release new features and debug fixes to users with a minimal downtime and risk. so simply as saying that cicd creates a development pipeline and that can help the team to deliver high quality software faster and more frequently compared to a recent ones.
+==================================================================
